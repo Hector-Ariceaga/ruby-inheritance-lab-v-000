@@ -6,6 +6,11 @@ attr_accessor :knowledge
   end
   
   def learn(string)
-    @knowlege << string
+    @knowledge << string
   end 
+  
+  def knowledge
+    @knowledge
+  end
+    
 end
