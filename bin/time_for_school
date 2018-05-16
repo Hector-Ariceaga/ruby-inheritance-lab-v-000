@@ -28,5 +28,5 @@ steve.learn(more_knowledge)
 bill.learn(some_knowledge)
 
 students = [steve, bill]
-puts "students.each {|s| s} just learned this important knowledge: '#{s.each {|s| s.knowledge.each {|k| k}}}' from Avi"
+puts "#{students.each {|s| s}} just learned this important knowledge: '#{s.each {|s| s.knowledge.each {|k| k}}}' from Avi"
 
